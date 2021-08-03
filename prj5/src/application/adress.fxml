@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller ="application.Controller">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="-10.0" layoutY="2.0" prefHeight="396.0" prefWidth="609.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="-10.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="2.0">
+               <children>
+                  <Label layoutX="23.0" layoutY="29.0" text="First Name :" />
+                  <TextField fx:id="firstName" layoutX="23.0" layoutY="57.0" prefHeight="31.0" prefWidth="222.0" />
+                  <Label layoutX="26.0" layoutY="105.0" text="Last Name :" />
+                  <TextField fx:id="lastName" layoutX="26.0" layoutY="141.0" prefHeight="31.0" prefWidth="209.0" />
+                  <ChoiceBox fx:id="provincecb" layoutX="27.0" layoutY="206.0" prefHeight="31.0" prefWidth="164.0" />
+                  <Label layoutX="26.0" layoutY="177.0" text="Province" />
+                  <Label layoutX="219.0" layoutY="177.0" text="City" />
+                  <TextField fx:id="city" layoutX="198.0" layoutY="206.0" />
+                  <TextField fx:id="postalCode" layoutX="395.0" layoutY="206.0" />
+                  <Label layoutX="395.0" layoutY="177.0" text="Postal Code" />
+                  <Button fx:id="add" layoutX="43.0" layoutY="265.0" mnemonicParsing="false" text="Add" />
+                  <Button fx:id="firstButton" layoutX="118.0" layoutY="265.0" mnemonicParsing="false" text="First" />
+                  <Button fx:id="prevButton" layoutX="274.0" layoutY="265.0" mnemonicParsing="false" text="Previous" />
+                  <Button fx:id="nextButton" layoutX="193.0" layoutY="265.0" mnemonicParsing="false" text="Next" />
+                  <Button fx:id="lastButton" layoutX="372.0" layoutY="265.0" mnemonicParsing="false" text="Last" />
+                  <Button fx:id="updateButton" layoutX="440.0" layoutY="265.0" mnemonicParsing="false" text="Update" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
