@@ -1,0 +1,10 @@
+summer
+winter
+spring
+fall
+season
+smith
+sandy
+jack
+peter
+marry
